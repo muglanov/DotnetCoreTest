@@ -1,0 +1,17 @@
+/home/user/dotnet2_projects/TestSolution/TestWebApi/bin/Debug/netcoreapp2.2/TestWebApi.deps.json
+/home/user/dotnet2_projects/TestSolution/TestWebApi/bin/Debug/netcoreapp2.2/TestWebApi.runtimeconfig.json
+/home/user/dotnet2_projects/TestSolution/TestWebApi/bin/Debug/netcoreapp2.2/TestWebApi.runtimeconfig.dev.json
+/home/user/dotnet2_projects/TestSolution/TestWebApi/bin/Debug/netcoreapp2.2/TestWebApi.dll
+/home/user/dotnet2_projects/TestSolution/TestWebApi/bin/Debug/netcoreapp2.2/TestWebApi.pdb
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.csprojAssemblyReference.cache
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.csproj.CoreCompileInputs.cache
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.RazorAssemblyInfo.cache
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.RazorAssemblyInfo.cs
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.AssemblyInfoInputs.cache
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.AssemblyInfo.cs
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.RazorTargetAssemblyInfo.cache
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.dll
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.pdb
+/home/user/dotnet2_projects/TestSolution/TestWebApi/bin/Debug/netcoreapp2.2/TestItemsRepository.dll
+/home/user/dotnet2_projects/TestSolution/TestWebApi/bin/Debug/netcoreapp2.2/TestItemsRepository.pdb
+/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.csproj.CopyComplete
