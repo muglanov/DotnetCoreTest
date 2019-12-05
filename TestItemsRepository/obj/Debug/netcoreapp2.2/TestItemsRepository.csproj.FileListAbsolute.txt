@@ -9,3 +9,14 @@
 /home/user/dotnet2_projects/TestSolution/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.AssemblyInfo.cs
 /home/user/dotnet2_projects/TestSolution/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.dll
 /home/user/dotnet2_projects/TestSolution/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.pdb
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/bin/Debug/netcoreapp2.2/TestItemsRepository.deps.json
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/bin/Debug/netcoreapp2.2/TestItemsRepository.runtimeconfig.json
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/bin/Debug/netcoreapp2.2/TestItemsRepository.runtimeconfig.dev.json
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/bin/Debug/netcoreapp2.2/TestItemsRepository.dll
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/bin/Debug/netcoreapp2.2/TestItemsRepository.pdb
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.csprojAssemblyReference.cache
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.csproj.CoreCompileInputs.cache
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.AssemblyInfoInputs.cache
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.AssemblyInfo.cs
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.dll
+/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/obj/Debug/netcoreapp2.2/TestItemsRepository.pdb

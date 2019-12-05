@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/dotnet2_projects/TestSolution/TestWebApi/TestWebApi.csproj": {}
+    "/home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/TestWebApi.csproj": {}
   },
   "projects": {
-    "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj": {
+    "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj",
+        "projectUniqueName": "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj",
         "projectName": "TestItemsRepository",
-        "projectPath": "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj",
+        "projectPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/obj/",
+        "outputPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "/home/user/dotnet2_projects/TestSolution/TestWebApi/TestWebApi.csproj": {
+    "/home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/TestWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/dotnet2_projects/TestSolution/TestWebApi/TestWebApi.csproj",
+        "projectUniqueName": "/home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/TestWebApi.csproj",
         "projectName": "TestWebApi",
-        "projectPath": "/home/user/dotnet2_projects/TestSolution/TestWebApi/TestWebApi.csproj",
+        "projectPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/TestWebApi.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/dotnet2_projects/TestSolution/TestWebApi/obj/",
+        "outputPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -90,8 +90,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj": {
-                "projectPath": "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj"
+              "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj": {
+                "projectPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj"
               }
             }
           }
@@ -107,7 +107,7 @@
           "dependencies": {
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",

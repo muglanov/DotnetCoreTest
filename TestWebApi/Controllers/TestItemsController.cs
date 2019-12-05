@@ -41,15 +41,10 @@ namespace TestWebApi.Controllers
             return testItem;
         }
 
-        // PUT: api/TestItems/5
+        // PUT: api/TestItems
         [HttpPut]
         public async Task<IActionResult> PutTestItem(TestItem testItem)
         {
-            // if (id != testItem.Id)
-            // {
-            //     return BadRequest();
-            // }
-
             _context.Entry(testItem).State = EntityState.Modified;
 
             try

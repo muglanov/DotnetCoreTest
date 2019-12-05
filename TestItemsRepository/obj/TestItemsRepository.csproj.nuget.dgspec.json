@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj": {}
+    "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj": {}
   },
   "projects": {
-    "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj": {
+    "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj",
+        "projectUniqueName": "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj",
         "projectName": "TestItemsRepository",
-        "projectPath": "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/TestItemsRepository.csproj",
+        "projectPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/dotnet2_projects/TestSolution/TestItemsRepository/obj/",
+        "outputPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
