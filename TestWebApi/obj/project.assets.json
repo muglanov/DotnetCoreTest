@@ -4779,6 +4779,20 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "TestDataService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
+          "TestItemsRepository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestDataService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestDataService.dll": {}
+        }
+      },
       "TestItemsRepository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -13157,6 +13171,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "TestDataService/1.0.0": {
+      "type": "project",
+      "path": "../TestDataService/TestDataService.csproj",
+      "msbuildProject": "../TestDataService/TestDataService.csproj"
+    },
     "TestItemsRepository/1.0.0": {
       "type": "project",
       "path": "../TestItemsRepository/TestItemsRepository.csproj",
@@ -13170,6 +13189,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.0",
+      "TestDataService >= 1.0.0",
       "TestItemsRepository >= 1.0.0"
     ]
   },
@@ -13201,6 +13221,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/TestDataService.csproj": {
+              "projectPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/TestDataService.csproj"
+            },
             "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj": {
               "projectPath": "/home/user/dotnet2_projects/DotnetCoreTest/TestItemsRepository/TestItemsRepository.csproj"
             }

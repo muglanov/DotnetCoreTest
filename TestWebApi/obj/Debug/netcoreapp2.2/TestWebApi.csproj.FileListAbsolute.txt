@@ -32,3 +32,5 @@
 /home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.csproj.CopyComplete
 /home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.dll
 /home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/obj/Debug/netcoreapp2.2/TestWebApi.pdb
+/home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/bin/Debug/netcoreapp2.2/TestDataService.dll
+/home/user/dotnet2_projects/DotnetCoreTest/TestWebApi/bin/Debug/netcoreapp2.2/TestDataService.pdb

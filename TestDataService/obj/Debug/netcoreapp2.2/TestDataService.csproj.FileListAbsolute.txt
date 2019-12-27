@@ -1,0 +1,12 @@
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/bin/Debug/netcoreapp2.2/TestDataService.deps.json
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/bin/Debug/netcoreapp2.2/TestDataService.dll
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/bin/Debug/netcoreapp2.2/TestDataService.pdb
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/bin/Debug/netcoreapp2.2/TestItemsRepository.dll
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/bin/Debug/netcoreapp2.2/TestItemsRepository.pdb
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/obj/Debug/netcoreapp2.2/TestDataService.csprojAssemblyReference.cache
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/obj/Debug/netcoreapp2.2/TestDataService.csproj.CoreCompileInputs.cache
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/obj/Debug/netcoreapp2.2/TestDataService.AssemblyInfoInputs.cache
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/obj/Debug/netcoreapp2.2/TestDataService.AssemblyInfo.cs
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/obj/Debug/netcoreapp2.2/TestDataService.csproj.CopyComplete
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/obj/Debug/netcoreapp2.2/TestDataService.dll
+/home/user/dotnet2_projects/DotnetCoreTest/TestDataService/obj/Debug/netcoreapp2.2/TestDataService.pdb

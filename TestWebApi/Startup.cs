@@ -2,9 +2,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using TestItemsRepository.Models;
+
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using TestData.Services;
 
 namespace TestWebApi
 {
@@ -14,8 +15,8 @@ namespace TestWebApi
         {
             services.AddMvc();
             var builder = new ContainerBuilder();
+            builder.RegisterType<TestDataService>().As<ITestDataService>();
             builder.Populate(services);
-            builder.RegisterType<TestDbContext>();
             IContainer container = builder.Build();
             return new AutofacServiceProvider(container);
         }

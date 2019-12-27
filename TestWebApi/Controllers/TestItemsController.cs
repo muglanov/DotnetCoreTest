@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TestItemsRepository.Models;
+using TestData.Services;
 
 namespace TestWebApi.Controllers
 {
@@ -13,47 +12,39 @@ namespace TestWebApi.Controllers
     [ApiController]
     public class TestItemsController : ControllerBase
     {
-        private readonly TestDbContext _context;
+        private readonly ITestDataService _dataService;
 
-        public TestItemsController(TestDbContext context)
+        public TestItemsController(ITestDataService dataService)
         {
-            _context = context;
+            _dataService = dataService;
         }
 
         // GET: api/TestItems
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TestItem>>> GetTestItem()
         {
-            return await _context.TestItem.ToListAsync();
+            return await _dataService.GetTestItems();
         }
 
         // GET: api/TestItems/5
         [HttpGet("{id}")]
         public async Task<ActionResult<TestItem>> GetTestItem(int id)
         {
-            var testItem = await _context.TestItem.FindAsync(id);
-
-            if (testItem == null)
-            {
-                return NotFound();
-            }
-
-            return testItem;
+            return await _dataService.GetTestItem(id);
         }
 
         // PUT: api/TestItems
         [HttpPut]
         public async Task<IActionResult> PutTestItem(TestItem testItem)
         {
-            _context.Entry(testItem).State = EntityState.Modified;
-
+            TestItem changedTestItem = null;
             try
             {
-                await _context.SaveChangesAsync();
+                changedTestItem = await _dataService.RefreshTestItem(testItem);
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!TestItemExists(testItem.Id))
+                if (changedTestItem is null)
                 {
                     return NotFound();
                 }
@@ -70,9 +61,7 @@ namespace TestWebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<TestItem>> PostTestItem(TestItem testItem)
         {
-            _context.TestItem.Add(testItem);
-            await _context.SaveChangesAsync();
-
+            await _dataService.CreateTestItem(testItem);
             return CreatedAtAction(nameof(GetTestItem), new { id = testItem.Id }, testItem);
         }
 
@@ -80,21 +69,13 @@ namespace TestWebApi.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<TestItem>> DeleteTestItem(int id)
         {
-            var testItem = await _context.TestItem.FindAsync(id);
+            var testItem = await _dataService.DeleteTestItem(id);
             if (testItem == null)
             {
                 return NotFound();
             }
 
-            _context.TestItem.Remove(testItem);
-            await _context.SaveChangesAsync();
-
             return testItem;
-        }
-
-        private bool TestItemExists(int id)
-        {
-            return _context.TestItem.Any(e => e.Id == id);
-        }
+        }   
     }
 }

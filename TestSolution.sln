@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestItemsRepository", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{5A03B78F-8EDA-4C7D-BC0B-2B335EC7DEB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataService", "TestDataService\TestDataService.csproj", "{84596F94-1908-4C58-9ED0-483C9E617F65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{5A03B78F-8EDA-4C7D-BC0B-2B335EC7DEB6}.Release|x64.Build.0 = Release|Any CPU
 		{5A03B78F-8EDA-4C7D-BC0B-2B335EC7DEB6}.Release|x86.ActiveCfg = Release|Any CPU
 		{5A03B78F-8EDA-4C7D-BC0B-2B335EC7DEB6}.Release|x86.Build.0 = Release|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Debug|x64.Build.0 = Debug|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Debug|x86.Build.0 = Debug|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Release|x64.ActiveCfg = Release|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Release|x64.Build.0 = Release|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Release|x86.ActiveCfg = Release|Any CPU
+		{84596F94-1908-4C58-9ED0-483C9E617F65}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
