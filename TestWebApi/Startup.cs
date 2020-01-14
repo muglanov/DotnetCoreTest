@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using TestData.Services;
+using TestItemsRepository.Models;
 
 namespace TestWebApi
 {
@@ -15,6 +16,7 @@ namespace TestWebApi
         {
             services.AddMvc();
             var builder = new ContainerBuilder();
+            builder.RegisterType<TestDbContext>();
             builder.RegisterType<TestDataService>().As<ITestDataService>();
             builder.Populate(services);
             IContainer container = builder.Build();
